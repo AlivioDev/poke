@@ -1,0 +1,33 @@
+body {
+    background-color: lightpink;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: "Comic Sans MS";
+    font-size: large;
+    background-color: lightblue;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 5px;
+    border-color: lightblue;
+}
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.pokemon-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px
+}
+
+.pokemon-card div {
+    margin: 5px;
+}

@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 150px;
+    height: 450px;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.container {
+    padding: 0px 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: unset;
+    margin: 0 0 10px;
+}
+
+li {
+    background-color: lightgrey;
+    margin: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
